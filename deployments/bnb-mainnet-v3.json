@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "network": "BNB Smart Chain Mainnet",
+  "chainId": 56,
+  "mode": "continuous",
+  "dexVersion": "PancakeSwap V3",
+  "deployedAt": "2026-09-14T15:24:07.397Z",
+  "startBlock": 121860961,
+  "launchFeeBNB": "0.02",
+  "poolFeeBps": 100,
+  "graduationBps": 8000,
+  "upgradeDelaySeconds": 172800,
+  "contracts": {
+    "factoryProxy": "0x983b57695152e856c17c39a29d62c4424008c25f",
+    "factoryImplementation": "0x44C0925419F70061beb7fdfecbBf42AC084cA00d",
+    "proxyAdmin": "0x5ee0441B3546137F4F52D859fA94cF7a01ecCFd2",
+    "upgradeGate": "0x2c10abd8da83806f2062fd57e68aeea54941a2bf",
+    "feeVault": "0x75225f3e112e25259a883e2A865433de40F124AF",
+    "liquidityLocker": "0xF420854CeFf1eb259be2FF11cE2aa9376aB9a4ac",
+    "quoteRegistry": "0x43640aA1e66BC949fE3d4D7feB00bC6760b83440",
+    "tokenImplementation": "0xAd79a4Ce83662F631f7DF232F6351b86894D9066"
+  },
+  "bnbInfrastructure": {
+    "wrappedBNB": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "pancakeV3Router": "0x1b81D678ffb9C0263b24A97847620C99d213eB14",
+    "pancakeV3Quoter": "0xB048Bbc1Ee6B733FFfCFb9e9CeF7375518e25997",
+    "pancakeV3PositionManager": "0x46A15B0b27311cedF172AB29E4f4766fbE7F4364"
+  }
+}

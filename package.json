@@ -1,0 +1,31 @@
+{
+  "name": "knot-bnb-launchpad",
+  "version": "0.1.0",
+  "description": "Public Knot smart contracts and wallet integration for BNB Smart Chain mainnet",
+  "license": "MIT",
+  "keywords": ["bnb-chain", "bsc", "solidity", "launchpad", "pancakeswap"],
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "compile:contracts": "node scripts/compile-contracts.mjs",
+    "build:contracts": "forge build --root contracts",
+    "check": "npm run typecheck && npm run compile:contracts"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.4.0",
+    "@pancakeswap/v3-core": "1.0.2",
+    "@pancakeswap/v3-periphery": "1.0.3",
+    "@uniswap/v4-core": "1.0.2",
+    "viem": "^2.56.3"
+  },
+  "devDependencies": {
+    "solc": "0.8.28",
+    "typescript": "5.9.3"
+  },
+  "overrides": {
+    "tmp": "0.2.7"
+  }
+}

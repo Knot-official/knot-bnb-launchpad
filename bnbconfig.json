@@ -1,0 +1,13 @@
+{
+  "network": "BNB Smart Chain Mainnet",
+  "chainId": 56,
+  "nativeCurrency": {
+    "name": "BNB",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  "rpcUrls": ["https://bsc-dataseed.bnbchain.org"],
+  "blockExplorer": "https://bscscan.com",
+  "deployment": "deployments/bnb-mainnet-v3.json"
+}
+

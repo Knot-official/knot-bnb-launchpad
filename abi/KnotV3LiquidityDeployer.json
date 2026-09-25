@@ -1,0 +1,26 @@
+[
+  {
+    "type": "function",
+    "name": "deploy",
+    "inputs": [
+      {
+        "name": "manager",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "vault",
+        "type": "address",
+        "internalType": "contract KnotV3FeeVault"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract KnotV3Liquidity"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]

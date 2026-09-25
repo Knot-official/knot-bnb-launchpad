@@ -1,0 +1,21 @@
+[
+  {
+    "type": "function",
+    "name": "deploy",
+    "inputs": [
+      {
+        "name": "treasury",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract KnotV3FeeVault"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  }
+]
